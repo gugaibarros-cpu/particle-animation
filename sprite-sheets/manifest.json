@@ -1,0 +1,162 @@
+{
+ "versao": 1,
+ "temas": [
+  "ember",
+  "ice",
+  "violet",
+  "mono"
+ ],
+ "tamanhos": [
+  18,
+  28,
+  44
+ ],
+ "escalas": [
+  1,
+  2
+ ],
+ "colunas": 8,
+ "estados": {
+  "repouso": {
+   "linha": 0,
+   "quadros": 1,
+   "fps": 0,
+   "laco": false
+  },
+  "ouvindo": {
+   "linha": 1,
+   "quadros": 8,
+   "fps": 8,
+   "laco": true
+  },
+  "pensando": {
+   "linha": 2,
+   "quadros": 8,
+   "fps": 8,
+   "laco": true
+  },
+  "falando": {
+   "linha": 3,
+   "quadros": 8,
+   "fps": 12,
+   "laco": true
+  },
+  "erro": {
+   "linha": 4,
+   "quadros": 1,
+   "fps": 0,
+   "laco": false
+  }
+ },
+ "formas": {
+  "lumen": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "nebula": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "atom": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "pulse-rings": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "crystal": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "face": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "globe": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "swarm": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "spectrum": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "particle-sphere": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ]
+  },
+  "halo-orb": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ],
+   "velocidade": 1
+  },
+  "event-horizon": {
+   "temas": [
+    "ember",
+    "ice",
+    "violet",
+    "mono"
+   ],
+   "velocidade": 1.7
+  }
+ },
+ "arquivo": "{forma}/{tema}-{tamanho}@{escala}x.webp",
+ "regras": {
+  "erro": "tema ember com cor de destaque #ff3b30 em pulso medio; igual em todos os temas",
+  "repouso": "1 quadro; o respiro (escala/brilho 1,5% a cada 5,5 s) e de quem desenha",
+  "movimento": "calmo/normal/intenso = fps x 0,65/1/1,35",
+  "fundo": "luz aditiva sobre preto convertida em alfa; so para fundos escuros",
+  "palco": 800,
+  "zoom": 2.25,
+  "qualidadeWebp": 0.7
+ },
+ "geradoEm": "2026-11-11T14:49:53.663Z"
+}

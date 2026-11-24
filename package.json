@@ -1,0 +1,13 @@
+{
+  "name": "particle-animation",
+  "version": "0.1.0",
+  "description": "Small WebGL2 animation engine (single RAF loop, pointer, shaders, stable-fluids, mesh parsers) plus sprite-sheet reader and globe point generator.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node tests/run.mjs"
+  },
+  "peerDependencies": { "react": ">=18" },
+  "devDependencies": { "@types/react": "^19.0.0", "typescript": "^5.6.0", "esbuild": "^0.24.0", "react": "^19.0.0" }
+}
